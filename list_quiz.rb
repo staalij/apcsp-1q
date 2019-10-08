@@ -18,15 +18,22 @@ end
 def bigger_two(list1,list2)
     sum1 = list1[0 + 1]
     sum2 = list2[0 + 1]
-    if sum1 > sum2
+    if sum1 > sum2 || sum1 == sum2
         return print list1
     elsif sum2 > sum1
         return print list2
-    elsif sum1 == sum2
-        return print list1
     end
 end
 
-puts bigger_two([1,7],[3,4])
-puts bigger_two([1,2],[3,4])
-puts bigger_two([1,3],[2,2])
+#puts bigger_two([1,7],[3,4])
+#puts bigger_two([1,2],[3,4])
+#puts bigger_two([1,3],[2,2])
+
+def series_up(n)
+    list = []
+    n.times do |i|
+        while i < n
+        list.push()
+        end
+    end
+end
