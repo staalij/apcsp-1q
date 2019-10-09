@@ -31,9 +31,15 @@ end
 
 def series_up(n)
     list = []
-    n.times do |i|
-        while i < n
-        list.push()
+    j = 0 # define variable j
+    (n-1).times do
+        while j < n
+        list.push(1+j) # push each value into a list    
+        print list # print the current list
+        j += 1 # add 1 to j so the while loop is not infinite
         end
     end
 end
+
+#series_up(4)
+series_up(5)
